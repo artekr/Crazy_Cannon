@@ -1,0 +1,42 @@
+﻿Build started 4/14/2012 09:18:36.
+     1>Project "F:\Users\kevin\Documents\Course Materials\COMP 6761\Project\Final_Project\COMP6761(Project_Final)\COMP6761(Project_Final)\COMP6761(Project_Final).vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\COMP6761(Project_Final).unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source_Code\Bullet.cpp Source_Code\Cannon.cpp Source_Code\imageloader.cpp Source_Code\main.cpp Source_Code\Map.cpp Source_Code\Target.cpp
+         Target.cpp
+         Map.cpp
+         main.cpp
+     1>f:\users\kevin\documents\course materials\comp 6761\project\final_project\comp6761(project_final)\comp6761(project_final)\source_code\main.cpp(21): warning C4129: 'L' : unrecognized character escape sequence
+     1>f:\users\kevin\documents\course materials\comp 6761\project\final_project\comp6761(project_final)\comp6761(project_final)\source_code\main.cpp(134): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\users\kevin\documents\course materials\comp 6761\project\final_project\comp6761(project_final)\comp6761(project_final)\source_code\main.cpp(177): warning C4018: '<' : signed/unsigned mismatch
+         imageloader.cpp
+         Cannon.cpp
+         Bullet.cpp
+         Generating Code...
+     1>f:\users\kevin\documents\course materials\comp 6761\project\final_project\comp6761(project_final)\comp6761(project_final)\source_code\target.cpp(128): warning C4715: 'Target::collision' : not all control paths return a value
+     1>f:\users\kevin\documents\course materials\comp 6761\project\final_project\comp6761(project_final)\comp6761(project_final)\source_code\target.cpp(308): warning C4715: 'Target::Response' : not all control paths return a value
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\COMP6761(Project_Final).exe.embed.manifest.res" "Debug\COMP6761(Project_Final)_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\kevin\Documents\Course Materials\COMP 6761\Project\Final_Project\COMP6761(Project_Final)\Debug\COMP6761(Project_Final).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\COMP6761(Project_Final).exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Users\kevin\Documents\Course Materials\COMP 6761\Project\Final_Project\COMP6761(Project_Final)\Debug\COMP6761(Project_Final).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\kevin\Documents\Course Materials\COMP 6761\Project\Final_Project\COMP6761(Project_Final)\Debug\COMP6761(Project_Final).lib" /MACHINE:X86 "Debug\COMP6761(Project_Final).exe.embed.manifest.res"
+         Debug\Bullet.obj
+         Debug\Cannon.obj
+         Debug\imageloader.obj
+         Debug\main.obj
+         Debug\Map.obj
+         Debug\Target.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\COMP6761(Project_Final).exe.embed.manifest" /manifest "Debug\COMP6761(Project_Final).exe.intermediate.manifest"
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\COMP6761(Project_Final).exe.embed.manifest.res" "Debug\COMP6761(Project_Final)_manifest.rc" 
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         COMP6761(Project_Final).vcxproj -> F:\Users\kevin\Documents\Course Materials\COMP 6761\Project\Final_Project\COMP6761(Project_Final)\Debug\COMP6761(Project_Final).exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\COMP6761(Project_Final).unsuccessfulbuild".
+         Touching "Debug\COMP6761(Project_Final).lastbuildstate".
+     1>Done Building Project "F:\Users\kevin\Documents\Course Materials\COMP 6761\Project\Final_Project\COMP6761(Project_Final)\COMP6761(Project_Final)\COMP6761(Project_Final).vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.44

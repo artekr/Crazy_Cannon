@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF7F6461539EC0200BF22F1 /* Crazy_Cannon.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0AF7F6451539EC0200BF22F1 /* Crazy_Cannon.1 */; };
+		0AF7F65F1539ECE500BF22F1 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7F6521539ECE500BF22F1 /* Bullet.cpp */; };
+		0AF7F6601539ECE500BF22F1 /* Components.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7F6551539ECE500BF22F1 /* Components.cpp */; };
+		0AF7F6611539ECE500BF22F1 /* imageloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7F6561539ECE500BF22F1 /* imageloader.cpp */; };
+		0AF7F6621539ECE500BF22F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7F6581539ECE500BF22F1 /* main.cpp */; };
+		0AF7F6631539ECE500BF22F1 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7F6591539ECE500BF22F1 /* Map.cpp */; };
+		0AF7F6641539ECE500BF22F1 /* Target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7F65B1539ECE500BF22F1 /* Target.cpp */; };
+		A88FF0D115B562B2007F112E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88FF0CF15B562B2007F112E /* GLUT.framework */; };
+		A88FF0D215B562B2007F112E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88FF0D015B562B2007F112E /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AF7F63D1539EC0200BF22F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0AF7F6461539EC0200BF22F1 /* Crazy_Cannon.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AF7F63F1539EC0200BF22F1 /* Crazy_Cannon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Crazy_Cannon; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF7F6451539EC0200BF22F1 /* Crazy_Cannon.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Crazy_Cannon.1; sourceTree = "<group>"; };
+		0AF7F6521539ECE500BF22F1 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bullet.cpp; path = Crazy_Cannon/Source_Code/Bullet.cpp; sourceTree = "<group>"; };
+		0AF7F6531539ECE500BF22F1 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bullet.h; path = Crazy_Cannon/Source_Code/Bullet.h; sourceTree = "<group>"; };
+		0AF7F6541539ECE500BF22F1 /* Cannon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cannon.h; path = Crazy_Cannon/Source_Code/Cannon.h; sourceTree = "<group>"; };
+		0AF7F6551539ECE500BF22F1 /* Components.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Components.cpp; path = Crazy_Cannon/Source_Code/Components.cpp; sourceTree = "<group>"; };
+		0AF7F6561539ECE500BF22F1 /* imageloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imageloader.cpp; path = Crazy_Cannon/Source_Code/imageloader.cpp; sourceTree = "<group>"; };
+		0AF7F6571539ECE500BF22F1 /* imageloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imageloader.h; path = Crazy_Cannon/Source_Code/imageloader.h; sourceTree = "<group>"; };
+		0AF7F6581539ECE500BF22F1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Crazy_Cannon/Source_Code/main.cpp; sourceTree = "<group>"; };
+		0AF7F6591539ECE500BF22F1 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Map.cpp; path = Crazy_Cannon/Source_Code/Map.cpp; sourceTree = "<group>"; };
+		0AF7F65A1539ECE500BF22F1 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Map.h; path = Crazy_Cannon/Source_Code/Map.h; sourceTree = "<group>"; };
+		0AF7F65B1539ECE500BF22F1 /* Target.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Target.cpp; path = Crazy_Cannon/Source_Code/Target.cpp; sourceTree = "<group>"; };
+		0AF7F65C1539ECE500BF22F1 /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target.h; path = Crazy_Cannon/Source_Code/Target.h; sourceTree = "<group>"; };
+		0AF7F65D1539ECE500BF22F1 /* Variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Variables.h; path = Crazy_Cannon/Source_Code/Variables.h; sourceTree = "<group>"; };
+		0AF7F65E1539ECE500BF22F1 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector.h; path = Crazy_Cannon/Source_Code/Vector.h; sourceTree = "<group>"; };
+		0AF7F66F1539EF1A00BF22F1 /* box.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = box.bmp; path = Crazy_Cannon/Resources/Textures/box.bmp; sourceTree = "<group>"; };
+		0AF7F6701539EF1A00BF22F1 /* brickwall.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = brickwall.bmp; path = Crazy_Cannon/Resources/Textures/brickwall.bmp; sourceTree = "<group>"; };
+		0AF7F6711539EF1A00BF22F1 /* crosshair.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = crosshair.bmp; path = Crazy_Cannon/Resources/Textures/crosshair.bmp; sourceTree = "<group>"; };
+		0AF7F6721539EF1A00BF22F1 /* ground.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = ground.bmp; path = Crazy_Cannon/Resources/Textures/ground.bmp; sourceTree = "<group>"; };
+		0AF7F6731539EF1A00BF22F1 /* gun_rust.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = gun_rust.bmp; path = Crazy_Cannon/Resources/Textures/gun_rust.bmp; sourceTree = "<group>"; };
+		0AF7F6741539EF1A00BF22F1 /* gun.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = gun.bmp; path = Crazy_Cannon/Resources/Textures/gun.bmp; sourceTree = "<group>"; };
+		0AF7F6751539EF1A00BF22F1 /* metal.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = metal.bmp; path = Crazy_Cannon/Resources/Textures/metal.bmp; sourceTree = "<group>"; };
+		0AF7F6761539EF1A00BF22F1 /* nightSky.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = nightSky.bmp; path = Crazy_Cannon/Resources/Textures/nightSky.bmp; sourceTree = "<group>"; };
+		0AF7F6771539EF1A00BF22F1 /* sky.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = sky.bmp; path = Crazy_Cannon/Resources/Textures/sky.bmp; sourceTree = "<group>"; };
+		0AF7F6781539EF1A00BF22F1 /* smoke.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = smoke.bmp; path = Crazy_Cannon/Resources/Textures/smoke.bmp; sourceTree = "<group>"; };
+		0AF7F6791539EF1A00BF22F1 /* target.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = target.bmp; path = Crazy_Cannon/Resources/Textures/target.bmp; sourceTree = "<group>"; };
+		0AF7F67A1539EF1A00BF22F1 /* wheel.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = wheel.bmp; path = Crazy_Cannon/Resources/Textures/wheel.bmp; sourceTree = "<group>"; };
+		0AF7F67B1539EF1A00BF22F1 /* winner.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = winner.bmp; path = Crazy_Cannon/Resources/Textures/winner.bmp; sourceTree = "<group>"; };
+		A88FF0CF15B562B2007F112E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		A88FF0D015B562B2007F112E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF7F63C1539EC0200BF22F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88FF0D115B562B2007F112E /* GLUT.framework in Frameworks */,
+				A88FF0D215B562B2007F112E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF7F6341539EC0200BF22F1 = {
+			isa = PBXGroup;
+			children = (
+				A88FF0CF15B562B2007F112E /* GLUT.framework */,
+				A88FF0D015B562B2007F112E /* OpenGL.framework */,
+				0AF7F6511539ECB500BF22F1 /* Headers */,
+				0AF7F6421539EC0200BF22F1 /* Crazy_Cannon */,
+				0AF7F6501539ECB300BF22F1 /* cpp_files */,
+				0AF7F66D1539EDEF00BF22F1 /* Images */,
+				0AF7F6401539EC0200BF22F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AF7F6401539EC0200BF22F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AF7F63F1539EC0200BF22F1 /* Crazy_Cannon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AF7F6421539EC0200BF22F1 /* Crazy_Cannon */ = {
+			isa = PBXGroup;
+			children = (
+				0AF7F6451539EC0200BF22F1 /* Crazy_Cannon.1 */,
+			);
+			path = Crazy_Cannon;
+			sourceTree = "<group>";
+		};
+		0AF7F6501539ECB300BF22F1 /* cpp_files */ = {
+			isa = PBXGroup;
+			children = (
+				0AF7F6521539ECE500BF22F1 /* Bullet.cpp */,
+				0AF7F6551539ECE500BF22F1 /* Components.cpp */,
+				0AF7F6561539ECE500BF22F1 /* imageloader.cpp */,
+				0AF7F6581539ECE500BF22F1 /* main.cpp */,
+				0AF7F6591539ECE500BF22F1 /* Map.cpp */,
+				0AF7F65B1539ECE500BF22F1 /* Target.cpp */,
+			);
+			name = cpp_files;
+			sourceTree = "<group>";
+		};
+		0AF7F6511539ECB500BF22F1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0AF7F6531539ECE500BF22F1 /* Bullet.h */,
+				0AF7F6541539ECE500BF22F1 /* Cannon.h */,
+				0AF7F6571539ECE500BF22F1 /* imageloader.h */,
+				0AF7F65A1539ECE500BF22F1 /* Map.h */,
+				0AF7F65C1539ECE500BF22F1 /* Target.h */,
+				0AF7F65D1539ECE500BF22F1 /* Variables.h */,
+				0AF7F65E1539ECE500BF22F1 /* Vector.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		0AF7F66D1539EDEF00BF22F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0AF7F66F1539EF1A00BF22F1 /* box.bmp */,
+				0AF7F6701539EF1A00BF22F1 /* brickwall.bmp */,
+				0AF7F6711539EF1A00BF22F1 /* crosshair.bmp */,
+				0AF7F6721539EF1A00BF22F1 /* ground.bmp */,
+				0AF7F6731539EF1A00BF22F1 /* gun_rust.bmp */,
+				0AF7F6741539EF1A00BF22F1 /* gun.bmp */,
+				0AF7F6751539EF1A00BF22F1 /* metal.bmp */,
+				0AF7F6761539EF1A00BF22F1 /* nightSky.bmp */,
+				0AF7F6771539EF1A00BF22F1 /* sky.bmp */,
+				0AF7F6781539EF1A00BF22F1 /* smoke.bmp */,
+				0AF7F6791539EF1A00BF22F1 /* target.bmp */,
+				0AF7F67A1539EF1A00BF22F1 /* wheel.bmp */,
+				0AF7F67B1539EF1A00BF22F1 /* winner.bmp */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AF7F63E1539EC0200BF22F1 /* Crazy_Cannon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF7F6491539EC0200BF22F1 /* Build configuration list for PBXNativeTarget "Crazy_Cannon" */;
+			buildPhases = (
+				0AF7F63B1539EC0200BF22F1 /* Sources */,
+				0AF7F63C1539EC0200BF22F1 /* Frameworks */,
+				0AF7F63D1539EC0200BF22F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crazy_Cannon;
+			productName = Crazy_Cannon;
+			productReference = 0AF7F63F1539EC0200BF22F1 /* Crazy_Cannon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AF7F6361539EC0200BF22F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0AF7F6391539EC0200BF22F1 /* Build configuration list for PBXProject "Crazy_Cannon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AF7F6341539EC0200BF22F1;
+			productRefGroup = 0AF7F6401539EC0200BF22F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AF7F63E1539EC0200BF22F1 /* Crazy_Cannon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AF7F63B1539EC0200BF22F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF7F65F1539ECE500BF22F1 /* Bullet.cpp in Sources */,
+				0AF7F6601539ECE500BF22F1 /* Components.cpp in Sources */,
+				0AF7F6611539ECE500BF22F1 /* imageloader.cpp in Sources */,
+				0AF7F6621539ECE500BF22F1 /* main.cpp in Sources */,
+				0AF7F6631539ECE500BF22F1 /* Map.cpp in Sources */,
+				0AF7F6641539ECE500BF22F1 /* Target.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AF7F6471539EC0200BF22F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0AF7F6481539EC0200BF22F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AF7F64A1539EC0200BF22F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Crazy_Cannon/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF7F64B1539EC0200BF22F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Crazy_Cannon/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AF7F6391539EC0200BF22F1 /* Build configuration list for PBXProject "Crazy_Cannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF7F6471539EC0200BF22F1 /* Debug */,
+				0AF7F6481539EC0200BF22F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF7F6491539EC0200BF22F1 /* Build configuration list for PBXNativeTarget "Crazy_Cannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF7F64A1539EC0200BF22F1 /* Debug */,
+				0AF7F64B1539EC0200BF22F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AF7F6361539EC0200BF22F1 /* Project object */;
+}
